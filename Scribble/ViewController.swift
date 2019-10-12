@@ -9,6 +9,7 @@
 import UIKit
 import Vision
 import VisionKit
+import MarkdownKit
 
 class ViewController: UIViewController, VNDocumentCameraViewControllerDelegate {
     @IBOutlet weak var textView: UITextView!
@@ -37,15 +38,16 @@ class ViewController: UIViewController, VNDocumentCameraViewControllerDelegate {
             var detectedText = ""
             for observation in observations {
                 guard let topCandidate = observation.topCandidates(1).first else { return }
-                
-                detectedText += (topCandidate.string + "\n")
+                print(topCandidate)
+                detectedText += (topCandidate.string + "\n\n")
             }
             
             DispatchQueue.main.async {
-                self.textView.text = detectedText
+                self.textView.attributedText = MarkdownParser().parse(detectedText)
                 self.textView.flashScrollIndicators()
             }
             
+            self.textRecognitionRequest.usesLanguageCorrection = true
             self.textRecognitionRequest.recognitionLevel = .accurate
         }
     }
@@ -63,24 +65,14 @@ class ViewController: UIViewController, VNDocumentCameraViewControllerDelegate {
         }
     }
     
-    func compressImage(_ originalImage: UIImage) -> UIImage {
-        guard let imageData = originalImage.jpegData(compressionQuality: 1),
-            let reloadedImage = UIImage(data: imageData)
-        else {
-            return originalImage
-        }
-        return reloadedImage
-    }
-    
     func documentCameraViewController(_ controller: VNDocumentCameraViewController, didFinishWith scan: VNDocumentCameraScan) {
         guard scan.pageCount >= 1 else {
             controller.dismiss(animated: true)
             return
         }
         
-        let newImage = compressImage(scan.imageOfPage(at: 0))
         controller.dismiss(animated: true)
-        recognizeText(newImage)
+        recognizeText(scan.imageOfPage(at: 0))
     }
     
     func documentCameraViewController(_ controller: VNDocumentCameraViewController, didFailWithError error: Error) {

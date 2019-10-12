@@ -1,0 +1,6 @@
+framework module Pods_Scribble {
+  umbrella header "Pods-Scribble-umbrella.h"
+
+  export *
+  module * { export * }
+}

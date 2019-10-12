@@ -1,0 +1,1061 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117E7B675AAE008716DD599EDD51983E /* MarkdownCode+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB54B2A4737F7767F511D5792FFBB4 /* MarkdownCode+UIKit.swift */; };
+		17B9870B83DAF952BD18718907A0EF1F /* MarkdownCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3688C7D3A3A8EFAB9695E2E88C2BAAEE /* MarkdownCode.swift */; };
+		207A58D60963D2CB58D93B908DDFCA45 /* MarkdownItalic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD53C12ABDD67CABA6909EBF789415B1 /* MarkdownItalic.swift */; };
+		20AD36B94013B0EA678A156A9A86DA26 /* MarkdownEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1FB194F59109714263D34DBA8DDA5F /* MarkdownEscaping.swift */; };
+		34CF61A26BBFA2D3C8CCDC5E4FC6B905 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A0647AADA85A1F07C0B64E89A4B9B /* Typealias.swift */; };
+		362D2C5A9AFC9D8306C4223BE2257E32 /* MarkdownBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F7072FB9E066F08EE3A696F8B6D443 /* MarkdownBold.swift */; };
+		38673D77B95C49C31115345140101F14 /* MarkdownAutomaticLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F3D54ADCE2A2AC6ECD0B9DB333CD65 /* MarkdownAutomaticLink.swift */; };
+		39B0F10269497B08D37AA8BF314C7DCC /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5320A3C157F9C1F156A863DA5537382B /* MarkdownParser.swift */; };
+		3F6F8340FEE65C0E5997229A28C420D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		42B27E2CBB3767573061CE3561A9C954 /* MarkdownElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F8A8362C94B54BA1EBD967F9EA60E8 /* MarkdownElement.swift */; };
+		4CC2DF78E5589B3472D38234D0BB8400 /* MarkdownHeader+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1370BF52D177A03F68E2852CFA7F6BC /* MarkdownHeader+UIKit.swift */; };
+		51A006D3995A1AD81E125DBCDC514C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		51D19748239735A311AA9E3C4C0C4780 /* String+UTF16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FEC6F4856C8E1D703B9C48546F157 /* String+UTF16.swift */; };
+		53B19E09FE497727886F62DE96AF609D /* Pods-Scribble-ScribbleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F3D12D5344520974EE8A5CC369E6C2 /* Pods-Scribble-ScribbleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		587BFA30226EB515F45ED01820A358AF /* MarkdownLink+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B2C88C957FB214511E0472B1DB14E /* MarkdownLink+UIKit.swift */; };
+		5CB6030A3F794CE59E05ABBA71813CDD /* MarkdownCodeEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1061DCA1C4974D04FF0BB14F03675 /* MarkdownCodeEscaping.swift */; };
+		6E1CE940F16EB17E4ABEB091B6E23208 /* MarkdownKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A7988FD87DDDB1C43B018B74DC68C35 /* MarkdownKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		702A99F9AE42D9805F19E76359BDDDDD /* MarkdownHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3338A6F3866557F15B76D1C4348646 /* MarkdownHeader.swift */; };
+		7DFC743B2A9A4E4B6B79C7F004711E21 /* MarkdownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107578FFEE4A59055CDDE6A12E17F6DA /* MarkdownList.swift */; };
+		7E16F5ED084E11E1B237FCDE09B11C95 /* Pods-ScribbleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F091383419D2D1A19975E2244BE2C7 /* Pods-ScribbleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E4867B70895E67849F1BADA110338B5 /* MarkdownLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1307E255717FA26DC2786780CE884 /* MarkdownLink.swift */; };
+		83D1C139CF324A1DB9109A0127134284 /* MarkdownQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C022B3843FF1BA61E3AE16B692F56 /* MarkdownQuote.swift */; };
+		86E39758AFAD5390AA3E3844DFBC0088 /* Pods-Scribble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 075FF26F6F83F0A5BA17D3B6BE0DE3A0 /* Pods-Scribble-dummy.m */; };
+		8814B22A4400EA913A99525039573DCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		893221008EDE5F18EAD1291217A61276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		8C2CAE51443423AA379998DDF2C026F0 /* MarkdownCommonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC50FFE5E4120AC1DA5969E97D7D3E /* MarkdownCommonElement.swift */; };
+		8E8C69433E7A1D6BF60E0853733C3988 /* Pods-Scribble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBDC1ED3B37942FE1916709F37BD4F8 /* Pods-Scribble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92F11E3C5F44674E34DD797AD4560D77 /* MarkdownKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4B98768E537813521DE4B0DC88E86 /* MarkdownKit-dummy.m */; };
+		A939DFD017681E31BE0BA7DDB3F79FFD /* Pods-Scribble-ScribbleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA206DA70A0FF88CC916CF9A5822ADC /* Pods-Scribble-ScribbleUITests-dummy.m */; };
+		BAE4E7D112EC17C973483BA2602FF805 /* MarkdownParser+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3BEF063313291F276B5F091B1A836 /* MarkdownParser+UIKit.swift */; };
+		C26B4138B1ECC18E597D5F09FBB931C2 /* MarkdownUnescaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D10395EA62B28B479029F94B4539F8 /* MarkdownUnescaping.swift */; };
+		D1CDF0B91488D91D90AB7C3294A3661B /* MarkdownLinkElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15058F59998D598824A789BFFB2DED1 /* MarkdownLinkElement.swift */; };
+		D8E9E2ADDBEDAE408C6850E01CE303C9 /* MarkdownLevelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFDC98723132B07A96A12FC345333C /* MarkdownLevelElement.swift */; };
+		F2FA5F9889D98448FD25C664662237AF /* MarkdownStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F260818829FA3D4BC1736A6443F822 /* MarkdownStyle.swift */; };
+		F92B35BD038C6E256A27EB44E0384CE4 /* UIFont+Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8BB18DE481824F6D98C3161D19BBBA /* UIFont+Traits.swift */; };
+		FB4119119C4592DC77BB61B200254C73 /* Pods-ScribbleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B417EC2D518FD811E2B09BED4F4D704C /* Pods-ScribbleTests-dummy.m */; };
+		FE6C7BF1642BB158A2C83A8E7197A43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D0CEB6BB3896020A878091051396CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 950A4FE4CD95AAD1AE9BF6351D1CF215;
+			remoteInfo = "Pods-Scribble";
+		};
+		8D136701041589553703209C2C2FEE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B8CED42548FBCD698879F50FDF51154;
+			remoteInfo = MarkdownKit;
+		};
+		CDF79FC08BD400B319285FA92331714F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B8CED42548FBCD698879F50FDF51154;
+			remoteInfo = MarkdownKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075FF26F6F83F0A5BA17D3B6BE0DE3A0 /* Pods-Scribble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scribble-dummy.m"; sourceTree = "<group>"; };
+		0D9C022B3843FF1BA61E3AE16B692F56 /* MarkdownQuote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownQuote.swift; path = MarkdownKit/Sources/Common/Elements/Quote/MarkdownQuote.swift; sourceTree = "<group>"; };
+		107578FFEE4A59055CDDE6A12E17F6DA /* MarkdownList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownList.swift; path = MarkdownKit/Sources/Common/Elements/List/MarkdownList.swift; sourceTree = "<group>"; };
+		15F7072FB9E066F08EE3A696F8B6D443 /* MarkdownBold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownBold.swift; path = MarkdownKit/Sources/Common/Elements/Bold/MarkdownBold.swift; sourceTree = "<group>"; };
+		1BFB54B2A4737F7767F511D5792FFBB4 /* MarkdownCode+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarkdownCode+UIKit.swift"; path = "MarkdownKit/Sources/UIKit/Elements/Code/MarkdownCode+UIKit.swift"; sourceTree = "<group>"; };
+		1DB1061DCA1C4974D04FF0BB14F03675 /* MarkdownCodeEscaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownCodeEscaping.swift; path = MarkdownKit/Sources/Common/Elements/Escaping/MarkdownCodeEscaping.swift; sourceTree = "<group>"; };
+		22DC50FFE5E4120AC1DA5969E97D7D3E /* MarkdownCommonElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownCommonElement.swift; path = MarkdownKit/Sources/Common/Protocols/MarkdownCommonElement.swift; sourceTree = "<group>"; };
+		2335F133DB9E72771FB7A3BC4D670062 /* Pods-Scribble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Scribble.modulemap"; sourceTree = "<group>"; };
+		29A0093B9A5D2F097893410CFE7EAB28 /* MarkdownKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarkdownKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3DD7A9EE34F2878FB07C6E52677A79 /* Pods-ScribbleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScribbleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30579BDD8E9415FC8F31B2E7AAF6E5CF /* Pods-Scribble-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scribble-Info.plist"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		35B619FE66BB2D4CB08A55277826BC0C /* Pods-Scribble-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scribble-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3688C7D3A3A8EFAB9695E2E88C2BAAEE /* MarkdownCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownCode.swift; path = MarkdownKit/Sources/Common/Elements/Code/MarkdownCode.swift; sourceTree = "<group>"; };
+		399010DCEFA34FA36B5A8F1512DBAE39 /* MarkdownKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkdownKit-prefix.pch"; sourceTree = "<group>"; };
+		419873CCA8F3494B8C1A96B189F99918 /* Pods_ScribbleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScribbleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4539C82944CA4FE343256F25459E9C5C /* Pods_Scribble_ScribbleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribble_ScribbleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F370B128ED0BD28437870AFCE5CE350 /* Pods-Scribble-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scribble-frameworks.sh"; sourceTree = "<group>"; };
+		5320A3C157F9C1F156A863DA5537382B /* MarkdownParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownParser.swift; path = MarkdownKit/Sources/Common/MarkdownParser.swift; sourceTree = "<group>"; };
+		53E73171A743971A6549212BF196144B /* MarkdownKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarkdownKit.modulemap; sourceTree = "<group>"; };
+		64ACADF74AEC97A09A2228BE56F8FB41 /* Pods-Scribble-ScribbleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scribble-ScribbleUITests-Info.plist"; sourceTree = "<group>"; };
+		69D4B98768E537813521DE4B0DC88E86 /* MarkdownKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarkdownKit-dummy.m"; sourceTree = "<group>"; };
+		69E51A174D93F5940D0BA9863D752DA4 /* Pods-ScribbleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScribbleTests.modulemap"; sourceTree = "<group>"; };
+		6B61DCC42BAA6D3F589523FF5F0CBFBF /* Pods-Scribble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scribble.release.xcconfig"; sourceTree = "<group>"; };
+		6D3338A6F3866557F15B76D1C4348646 /* MarkdownHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownHeader.swift; path = MarkdownKit/Sources/Common/Elements/Header/MarkdownHeader.swift; sourceTree = "<group>"; };
+		730FEC6F4856C8E1D703B9C48546F157 /* String+UTF16.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+UTF16.swift"; path = "MarkdownKit/Sources/Common/Extensions/String+UTF16.swift"; sourceTree = "<group>"; };
+		76F3D12D5344520974EE8A5CC369E6C2 /* Pods-Scribble-ScribbleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scribble-ScribbleUITests-umbrella.h"; sourceTree = "<group>"; };
+		7A7988FD87DDDB1C43B018B74DC68C35 /* MarkdownKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkdownKit-umbrella.h"; sourceTree = "<group>"; };
+		7AA206DA70A0FF88CC916CF9A5822ADC /* Pods-Scribble-ScribbleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scribble-ScribbleUITests-dummy.m"; sourceTree = "<group>"; };
+		8C1FB194F59109714263D34DBA8DDA5F /* MarkdownEscaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownEscaping.swift; path = MarkdownKit/Sources/Common/Elements/Escaping/MarkdownEscaping.swift; sourceTree = "<group>"; };
+		8F0ED7312A6023658866181EAB3DD8B6 /* MarkdownKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarkdownKit.xcconfig; sourceTree = "<group>"; };
+		8F53E451549151182BC0AC41A7085834 /* Pods-Scribble-ScribbleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Scribble-ScribbleUITests.modulemap"; sourceTree = "<group>"; };
+		95DB087839090AEE8271187527316376 /* Pods-Scribble-ScribbleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scribble-ScribbleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98BAFE2C9E570BE15AF8FAC97BA818CA /* Pods-ScribbleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScribbleTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BEFDC98723132B07A96A12FC345333C /* MarkdownLevelElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownLevelElement.swift; path = MarkdownKit/Sources/Common/Protocols/MarkdownLevelElement.swift; sourceTree = "<group>"; };
+		9D4B2C88C957FB214511E0472B1DB14E /* MarkdownLink+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarkdownLink+UIKit.swift"; path = "MarkdownKit/Sources/UIKit/Elements/Link/MarkdownLink+UIKit.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1370BF52D177A03F68E2852CFA7F6BC /* MarkdownHeader+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarkdownHeader+UIKit.swift"; path = "MarkdownKit/Sources/UIKit/Elements/Header/MarkdownHeader+UIKit.swift"; sourceTree = "<group>"; };
+		A3401FE22CA47DCB0A85607CF9D113D4 /* Pods-Scribble-ScribbleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scribble-ScribbleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6F3D54ADCE2A2AC6ECD0B9DB333CD65 /* MarkdownAutomaticLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownAutomaticLink.swift; path = MarkdownKit/Sources/Common/Elements/Link/MarkdownAutomaticLink.swift; sourceTree = "<group>"; };
+		AAA1307E255717FA26DC2786780CE884 /* MarkdownLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownLink.swift; path = MarkdownKit/Sources/Common/Elements/Link/MarkdownLink.swift; sourceTree = "<group>"; };
+		ADE4B3A052256D3E4A96A3A777C83752 /* Pods-Scribble-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scribble-acknowledgements.plist"; sourceTree = "<group>"; };
+		B11F7582CB512E2772EF4FEEC4E17A79 /* Pods-ScribbleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScribbleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B417EC2D518FD811E2B09BED4F4D704C /* Pods-ScribbleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScribbleTests-dummy.m"; sourceTree = "<group>"; };
+		BB64D98A28D8C45E833AAB3928AA7E35 /* Pods-ScribbleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScribbleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD92F974C5B04CD96EBD2DC51D0E7A82 /* Pods_Scribble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29A0647AADA85A1F07C0B64E89A4B9B /* Typealias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealias.swift; path = MarkdownKit/Sources/UIKit/Typealias.swift; sourceTree = "<group>"; };
+		D4F091383419D2D1A19975E2244BE2C7 /* Pods-ScribbleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScribbleTests-umbrella.h"; sourceTree = "<group>"; };
+		D8D10395EA62B28B479029F94B4539F8 /* MarkdownUnescaping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownUnescaping.swift; path = MarkdownKit/Sources/Common/Elements/Escaping/MarkdownUnescaping.swift; sourceTree = "<group>"; };
+		DCB3BEF063313291F276B5F091B1A836 /* MarkdownParser+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MarkdownParser+UIKit.swift"; path = "MarkdownKit/Sources/UIKit/MarkdownParser+UIKit.swift"; sourceTree = "<group>"; };
+		DD8BB18DE481824F6D98C3161D19BBBA /* UIFont+Traits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+Traits.swift"; path = "MarkdownKit/Sources/UIKit/Extensions/UIFont+Traits.swift"; sourceTree = "<group>"; };
+		E04E5E70CAAD2605C52FD0D2E2797E5C /* Pods-Scribble-ScribbleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scribble-ScribbleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E15058F59998D598824A789BFFB2DED1 /* MarkdownLinkElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownLinkElement.swift; path = MarkdownKit/Sources/Common/Protocols/MarkdownLinkElement.swift; sourceTree = "<group>"; };
+		E25678714FC07F152997BD0CB6E5262C /* Pods-ScribbleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScribbleTests-Info.plist"; sourceTree = "<group>"; };
+		E2F8A8362C94B54BA1EBD967F9EA60E8 /* MarkdownElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownElement.swift; path = MarkdownKit/Sources/Common/Protocols/MarkdownElement.swift; sourceTree = "<group>"; };
+		E361AE53E10414FF84FF637DF3EB30EE /* Pods-Scribble-ScribbleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scribble-ScribbleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE71ECF5AC849841D2505C0C9E7A4326 /* Pods-Scribble-ScribbleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scribble-ScribbleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F24050223E1EE66D9392681DEF6638C6 /* Pods-Scribble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scribble.debug.xcconfig"; sourceTree = "<group>"; };
+		F3ADB91D542E50A502FD86CFC6506E3A /* MarkdownKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarkdownKit-Info.plist"; sourceTree = "<group>"; };
+		F5F260818829FA3D4BC1736A6443F822 /* MarkdownStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownStyle.swift; path = MarkdownKit/Sources/Common/Protocols/MarkdownStyle.swift; sourceTree = "<group>"; };
+		FD53C12ABDD67CABA6909EBF789415B1 /* MarkdownItalic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkdownItalic.swift; path = MarkdownKit/Sources/Common/Elements/Italic/MarkdownItalic.swift; sourceTree = "<group>"; };
+		FDBDC1ED3B37942FE1916709F37BD4F8 /* Pods-Scribble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scribble-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D776E9C42784A6B55EA5621D02295C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6F8340FEE65C0E5997229A28C420D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FEFD893EF3BB98E81EC6C06DF7797E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893221008EDE5F18EAD1291217A61276 /* Foundation.framework in Frameworks */,
+				8814B22A4400EA913A99525039573DCD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A812C5F1D377C7794BB5F38F2D6E5E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6C7BF1642BB158A2C83A8E7197A43D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74BF40AE64A1C5BE9239B0297258163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A006D3995A1AD81E125DBCDC514C15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E14EE9CECE199EFC30AB25ECD00C423 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C952E2C6AD1E5CD1598984F8B18C37CC /* Pods-Scribble */,
+				105B759BD50A5A293552037C1930525F /* Pods-Scribble-ScribbleUITests */,
+				AD7EEDF37A2BF3288767E24BDB59B762 /* Pods-ScribbleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		105B759BD50A5A293552037C1930525F /* Pods-Scribble-ScribbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F53E451549151182BC0AC41A7085834 /* Pods-Scribble-ScribbleUITests.modulemap */,
+				A3401FE22CA47DCB0A85607CF9D113D4 /* Pods-Scribble-ScribbleUITests-acknowledgements.markdown */,
+				E361AE53E10414FF84FF637DF3EB30EE /* Pods-Scribble-ScribbleUITests-acknowledgements.plist */,
+				7AA206DA70A0FF88CC916CF9A5822ADC /* Pods-Scribble-ScribbleUITests-dummy.m */,
+				E04E5E70CAAD2605C52FD0D2E2797E5C /* Pods-Scribble-ScribbleUITests-frameworks.sh */,
+				64ACADF74AEC97A09A2228BE56F8FB41 /* Pods-Scribble-ScribbleUITests-Info.plist */,
+				76F3D12D5344520974EE8A5CC369E6C2 /* Pods-Scribble-ScribbleUITests-umbrella.h */,
+				EE71ECF5AC849841D2505C0C9E7A4326 /* Pods-Scribble-ScribbleUITests.debug.xcconfig */,
+				95DB087839090AEE8271187527316376 /* Pods-Scribble-ScribbleUITests.release.xcconfig */,
+			);
+			name = "Pods-Scribble-ScribbleUITests";
+			path = "Target Support Files/Pods-Scribble-ScribbleUITests";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25DD7F37446130EA5142ABA5022AC731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29A0093B9A5D2F097893410CFE7EAB28 /* MarkdownKit.framework */,
+				BD92F974C5B04CD96EBD2DC51D0E7A82 /* Pods_Scribble.framework */,
+				4539C82944CA4FE343256F25459E9C5C /* Pods_Scribble_ScribbleUITests.framework */,
+				419873CCA8F3494B8C1A96B189F99918 /* Pods_ScribbleTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E53B04CE4EEBC2AC25AA5135019EDA8 /* MarkdownKit */ = {
+			isa = PBXGroup;
+			children = (
+				A6F3D54ADCE2A2AC6ECD0B9DB333CD65 /* MarkdownAutomaticLink.swift */,
+				15F7072FB9E066F08EE3A696F8B6D443 /* MarkdownBold.swift */,
+				3688C7D3A3A8EFAB9695E2E88C2BAAEE /* MarkdownCode.swift */,
+				1BFB54B2A4737F7767F511D5792FFBB4 /* MarkdownCode+UIKit.swift */,
+				1DB1061DCA1C4974D04FF0BB14F03675 /* MarkdownCodeEscaping.swift */,
+				22DC50FFE5E4120AC1DA5969E97D7D3E /* MarkdownCommonElement.swift */,
+				E2F8A8362C94B54BA1EBD967F9EA60E8 /* MarkdownElement.swift */,
+				8C1FB194F59109714263D34DBA8DDA5F /* MarkdownEscaping.swift */,
+				6D3338A6F3866557F15B76D1C4348646 /* MarkdownHeader.swift */,
+				A1370BF52D177A03F68E2852CFA7F6BC /* MarkdownHeader+UIKit.swift */,
+				FD53C12ABDD67CABA6909EBF789415B1 /* MarkdownItalic.swift */,
+				9BEFDC98723132B07A96A12FC345333C /* MarkdownLevelElement.swift */,
+				AAA1307E255717FA26DC2786780CE884 /* MarkdownLink.swift */,
+				9D4B2C88C957FB214511E0472B1DB14E /* MarkdownLink+UIKit.swift */,
+				E15058F59998D598824A789BFFB2DED1 /* MarkdownLinkElement.swift */,
+				107578FFEE4A59055CDDE6A12E17F6DA /* MarkdownList.swift */,
+				5320A3C157F9C1F156A863DA5537382B /* MarkdownParser.swift */,
+				DCB3BEF063313291F276B5F091B1A836 /* MarkdownParser+UIKit.swift */,
+				0D9C022B3843FF1BA61E3AE16B692F56 /* MarkdownQuote.swift */,
+				F5F260818829FA3D4BC1736A6443F822 /* MarkdownStyle.swift */,
+				D8D10395EA62B28B479029F94B4539F8 /* MarkdownUnescaping.swift */,
+				730FEC6F4856C8E1D703B9C48546F157 /* String+UTF16.swift */,
+				D29A0647AADA85A1F07C0B64E89A4B9B /* Typealias.swift */,
+				DD8BB18DE481824F6D98C3161D19BBBA /* UIFont+Traits.swift */,
+				90FD220092BDDE4D6D20B53E97339461 /* Support Files */,
+			);
+			path = MarkdownKit;
+			sourceTree = "<group>";
+		};
+		46E6786E658C11620641AF31F7E60FC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E53B04CE4EEBC2AC25AA5135019EDA8 /* MarkdownKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90FD220092BDDE4D6D20B53E97339461 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53E73171A743971A6549212BF196144B /* MarkdownKit.modulemap */,
+				8F0ED7312A6023658866181EAB3DD8B6 /* MarkdownKit.xcconfig */,
+				69D4B98768E537813521DE4B0DC88E86 /* MarkdownKit-dummy.m */,
+				F3ADB91D542E50A502FD86CFC6506E3A /* MarkdownKit-Info.plist */,
+				399010DCEFA34FA36B5A8F1512DBAE39 /* MarkdownKit-prefix.pch */,
+				7A7988FD87DDDB1C43B018B74DC68C35 /* MarkdownKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarkdownKit";
+			sourceTree = "<group>";
+		};
+		AD7EEDF37A2BF3288767E24BDB59B762 /* Pods-ScribbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				69E51A174D93F5940D0BA9863D752DA4 /* Pods-ScribbleTests.modulemap */,
+				BB64D98A28D8C45E833AAB3928AA7E35 /* Pods-ScribbleTests-acknowledgements.markdown */,
+				B11F7582CB512E2772EF4FEEC4E17A79 /* Pods-ScribbleTests-acknowledgements.plist */,
+				B417EC2D518FD811E2B09BED4F4D704C /* Pods-ScribbleTests-dummy.m */,
+				E25678714FC07F152997BD0CB6E5262C /* Pods-ScribbleTests-Info.plist */,
+				D4F091383419D2D1A19975E2244BE2C7 /* Pods-ScribbleTests-umbrella.h */,
+				2F3DD7A9EE34F2878FB07C6E52677A79 /* Pods-ScribbleTests.debug.xcconfig */,
+				98BAFE2C9E570BE15AF8FAC97BA818CA /* Pods-ScribbleTests.release.xcconfig */,
+			);
+			name = "Pods-ScribbleTests";
+			path = "Target Support Files/Pods-ScribbleTests";
+			sourceTree = "<group>";
+		};
+		C952E2C6AD1E5CD1598984F8B18C37CC /* Pods-Scribble */ = {
+			isa = PBXGroup;
+			children = (
+				2335F133DB9E72771FB7A3BC4D670062 /* Pods-Scribble.modulemap */,
+				35B619FE66BB2D4CB08A55277826BC0C /* Pods-Scribble-acknowledgements.markdown */,
+				ADE4B3A052256D3E4A96A3A777C83752 /* Pods-Scribble-acknowledgements.plist */,
+				075FF26F6F83F0A5BA17D3B6BE0DE3A0 /* Pods-Scribble-dummy.m */,
+				4F370B128ED0BD28437870AFCE5CE350 /* Pods-Scribble-frameworks.sh */,
+				30579BDD8E9415FC8F31B2E7AAF6E5CF /* Pods-Scribble-Info.plist */,
+				FDBDC1ED3B37942FE1916709F37BD4F8 /* Pods-Scribble-umbrella.h */,
+				F24050223E1EE66D9392681DEF6638C6 /* Pods-Scribble.debug.xcconfig */,
+				6B61DCC42BAA6D3F589523FF5F0CBFBF /* Pods-Scribble.release.xcconfig */,
+			);
+			name = "Pods-Scribble";
+			path = "Target Support Files/Pods-Scribble";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				46E6786E658C11620641AF31F7E60FC3 /* Pods */,
+				25DD7F37446130EA5142ABA5022AC731 /* Products */,
+				0E14EE9CECE199EFC30AB25ECD00C423 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11376DA495F7C6F12C435C73F64F77C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1CE940F16EB17E4ABEB091B6E23208 /* MarkdownKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1736F8D6007193B54D9BF797CB7C724D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E16F5ED084E11E1B237FCDE09B11C95 /* Pods-ScribbleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D8B1CC084B0F909159F9A700BC54FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B19E09FE497727886F62DE96AF609D /* Pods-Scribble-ScribbleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8011491330E214D0E8533194FDBC4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8C69433E7A1D6BF60E0853733C3988 /* Pods-Scribble-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02CE61F51A69EB82F90EFACBE5A6F4E7 /* Pods-ScribbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D356CEB73D9EDE13A074E5CD67B9569 /* Build configuration list for PBXNativeTarget "Pods-ScribbleTests" */;
+			buildPhases = (
+				1736F8D6007193B54D9BF797CB7C724D /* Headers */,
+				717CC4B2ABBADC7C1F3B735A4ED7763A /* Sources */,
+				D74BF40AE64A1C5BE9239B0297258163 /* Frameworks */,
+				2A9E5730ABCD4BD592FC8675139C21D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1791DF1F0C1654CF4A6585D715C7EAA /* PBXTargetDependency */,
+			);
+			name = "Pods-ScribbleTests";
+			productName = "Pods-ScribbleTests";
+			productReference = 419873CCA8F3494B8C1A96B189F99918 /* Pods_ScribbleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		950A4FE4CD95AAD1AE9BF6351D1CF215 /* Pods-Scribble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72FE2CC5EE311A3FDEC729E8936848E /* Build configuration list for PBXNativeTarget "Pods-Scribble" */;
+			buildPhases = (
+				5C8011491330E214D0E8533194FDBC4A /* Headers */,
+				3E91AE0836CCEB4C3184B310FA3368A3 /* Sources */,
+				4D776E9C42784A6B55EA5621D02295C6 /* Frameworks */,
+				4FACD6CC35BE725ED9BAAEA95A61E945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE43F11ECB89354DB25881C8BB1E48B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Scribble";
+			productName = "Pods-Scribble";
+			productReference = BD92F974C5B04CD96EBD2DC51D0E7A82 /* Pods_Scribble.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B8CED42548FBCD698879F50FDF51154 /* MarkdownKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF7B5691BB9F4F8D05455BCCE097C09 /* Build configuration list for PBXNativeTarget "MarkdownKit" */;
+			buildPhases = (
+				11376DA495F7C6F12C435C73F64F77C0 /* Headers */,
+				ACCAF200903B056E5583BB168C5365CE /* Sources */,
+				63FEFD893EF3BB98E81EC6C06DF7797E /* Frameworks */,
+				6393CD68D42DBDB10162343AF10FEE60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkdownKit;
+			productName = MarkdownKit;
+			productReference = 29A0093B9A5D2F097893410CFE7EAB28 /* MarkdownKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0A50A4AC2205E46599A604EBCD33EB0 /* Pods-Scribble-ScribbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E82B0DEB12A5136737C93760D4290B /* Build configuration list for PBXNativeTarget "Pods-Scribble-ScribbleUITests" */;
+			buildPhases = (
+				22D8B1CC084B0F909159F9A700BC54FB /* Headers */,
+				A9C0AB1592723C01D6246EB7EA64A8F5 /* Sources */,
+				6A812C5F1D377C7794BB5F38F2D6E5E2 /* Frameworks */,
+				CEC0DA12CE2A7C71F6BA24A8DE06B10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52879E68F030E08DB62E7BB9E4D3BECA /* PBXTargetDependency */,
+			);
+			name = "Pods-Scribble-ScribbleUITests";
+			productName = "Pods-Scribble-ScribbleUITests";
+			productReference = 4539C82944CA4FE343256F25459E9C5C /* Pods_Scribble_ScribbleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 25DD7F37446130EA5142ABA5022AC731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B8CED42548FBCD698879F50FDF51154 /* MarkdownKit */,
+				950A4FE4CD95AAD1AE9BF6351D1CF215 /* Pods-Scribble */,
+				F0A50A4AC2205E46599A604EBCD33EB0 /* Pods-Scribble-ScribbleUITests */,
+				02CE61F51A69EB82F90EFACBE5A6F4E7 /* Pods-ScribbleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9E5730ABCD4BD592FC8675139C21D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FACD6CC35BE725ED9BAAEA95A61E945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6393CD68D42DBDB10162343AF10FEE60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC0DA12CE2A7C71F6BA24A8DE06B10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E91AE0836CCEB4C3184B310FA3368A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E39758AFAD5390AA3E3844DFBC0088 /* Pods-Scribble-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717CC4B2ABBADC7C1F3B735A4ED7763A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4119119C4592DC77BB61B200254C73 /* Pods-ScribbleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C0AB1592723C01D6246EB7EA64A8F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A939DFD017681E31BE0BA7DDB3F79FFD /* Pods-Scribble-ScribbleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCAF200903B056E5583BB168C5365CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38673D77B95C49C31115345140101F14 /* MarkdownAutomaticLink.swift in Sources */,
+				362D2C5A9AFC9D8306C4223BE2257E32 /* MarkdownBold.swift in Sources */,
+				117E7B675AAE008716DD599EDD51983E /* MarkdownCode+UIKit.swift in Sources */,
+				17B9870B83DAF952BD18718907A0EF1F /* MarkdownCode.swift in Sources */,
+				5CB6030A3F794CE59E05ABBA71813CDD /* MarkdownCodeEscaping.swift in Sources */,
+				8C2CAE51443423AA379998DDF2C026F0 /* MarkdownCommonElement.swift in Sources */,
+				42B27E2CBB3767573061CE3561A9C954 /* MarkdownElement.swift in Sources */,
+				20AD36B94013B0EA678A156A9A86DA26 /* MarkdownEscaping.swift in Sources */,
+				4CC2DF78E5589B3472D38234D0BB8400 /* MarkdownHeader+UIKit.swift in Sources */,
+				702A99F9AE42D9805F19E76359BDDDDD /* MarkdownHeader.swift in Sources */,
+				207A58D60963D2CB58D93B908DDFCA45 /* MarkdownItalic.swift in Sources */,
+				92F11E3C5F44674E34DD797AD4560D77 /* MarkdownKit-dummy.m in Sources */,
+				D8E9E2ADDBEDAE408C6850E01CE303C9 /* MarkdownLevelElement.swift in Sources */,
+				587BFA30226EB515F45ED01820A358AF /* MarkdownLink+UIKit.swift in Sources */,
+				7E4867B70895E67849F1BADA110338B5 /* MarkdownLink.swift in Sources */,
+				D1CDF0B91488D91D90AB7C3294A3661B /* MarkdownLinkElement.swift in Sources */,
+				7DFC743B2A9A4E4B6B79C7F004711E21 /* MarkdownList.swift in Sources */,
+				BAE4E7D112EC17C973483BA2602FF805 /* MarkdownParser+UIKit.swift in Sources */,
+				39B0F10269497B08D37AA8BF314C7DCC /* MarkdownParser.swift in Sources */,
+				83D1C139CF324A1DB9109A0127134284 /* MarkdownQuote.swift in Sources */,
+				F2FA5F9889D98448FD25C664662237AF /* MarkdownStyle.swift in Sources */,
+				C26B4138B1ECC18E597D5F09FBB931C2 /* MarkdownUnescaping.swift in Sources */,
+				51D19748239735A311AA9E3C4C0C4780 /* String+UTF16.swift in Sources */,
+				34CF61A26BBFA2D3C8CCDC5E4FC6B905 /* Typealias.swift in Sources */,
+				F92B35BD038C6E256A27EB44E0384CE4 /* UIFont+Traits.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52879E68F030E08DB62E7BB9E4D3BECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarkdownKit;
+			target = 9B8CED42548FBCD698879F50FDF51154 /* MarkdownKit */;
+			targetProxy = CDF79FC08BD400B319285FA92331714F /* PBXContainerItemProxy */;
+		};
+		DE43F11ECB89354DB25881C8BB1E48B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarkdownKit;
+			target = 9B8CED42548FBCD698879F50FDF51154 /* MarkdownKit */;
+			targetProxy = 8D136701041589553703209C2C2FEE53 /* PBXContainerItemProxy */;
+		};
+		E1791DF1F0C1654CF4A6585D715C7EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Scribble";
+			target = 950A4FE4CD95AAD1AE9BF6351D1CF215 /* Pods-Scribble */;
+			targetProxy = 0D0CEB6BB3896020A878091051396CA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20E8DB8A2FA00BB474D3907A46560A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE71ECF5AC849841D2505C0C9E7A4326 /* Pods-Scribble-ScribbleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scribble-ScribbleUITests/Pods-Scribble-ScribbleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scribble-ScribbleUITests/Pods-Scribble-ScribbleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		440730EB4F151CB4C296B57D36B612FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3DD7A9EE34F2878FB07C6E52677A79 /* Pods-ScribbleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScribbleTests/Pods-ScribbleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScribbleTests/Pods-ScribbleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7DF05A37D2CDB30A55224806AEC54A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95DB087839090AEE8271187527316376 /* Pods-Scribble-ScribbleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scribble-ScribbleUITests/Pods-Scribble-ScribbleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scribble-ScribbleUITests/Pods-Scribble-ScribbleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		958D50407CD205CB147473C0AD4F32EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98BAFE2C9E570BE15AF8FAC97BA818CA /* Pods-ScribbleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScribbleTests/Pods-ScribbleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScribbleTests/Pods-ScribbleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9667672CF5CDC706B3DD18089B9C77C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0ED7312A6023658866181EAB3DD8B6 /* MarkdownKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarkdownKit/MarkdownKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarkdownKit/MarkdownKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MarkdownKit/MarkdownKit.modulemap";
+				PRODUCT_MODULE_NAME = MarkdownKit;
+				PRODUCT_NAME = MarkdownKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B70350A597EAE6DE2E5C072B95C318D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24050223E1EE66D9392681DEF6638C6 /* Pods-Scribble.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scribble/Pods-Scribble-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scribble/Pods-Scribble.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E40CF94D4E87BD456E86EA3ADA65E6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B61DCC42BAA6D3F589523FF5F0CBFBF /* Pods-Scribble.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Scribble/Pods-Scribble-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Scribble/Pods-Scribble.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E99C3689DFDB90B0CAF7C142FA9B12A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0ED7312A6023658866181EAB3DD8B6 /* MarkdownKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarkdownKit/MarkdownKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarkdownKit/MarkdownKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MarkdownKit/MarkdownKit.modulemap";
+				PRODUCT_MODULE_NAME = MarkdownKit;
+				PRODUCT_NAME = MarkdownKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
+				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D356CEB73D9EDE13A074E5CD67B9569 /* Build configuration list for PBXNativeTarget "Pods-ScribbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440730EB4F151CB4C296B57D36B612FC /* Debug */,
+				958D50407CD205CB147473C0AD4F32EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E82B0DEB12A5136737C93760D4290B /* Build configuration list for PBXNativeTarget "Pods-Scribble-ScribbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E8DB8A2FA00BB474D3907A46560A79 /* Debug */,
+				7DF05A37D2CDB30A55224806AEC54A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF7B5691BB9F4F8D05455BCCE097C09 /* Build configuration list for PBXNativeTarget "MarkdownKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99C3689DFDB90B0CAF7C142FA9B12A1 /* Debug */,
+				9667672CF5CDC706B3DD18089B9C77C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72FE2CC5EE311A3FDEC729E8936848E /* Build configuration list for PBXNativeTarget "Pods-Scribble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70350A597EAE6DE2E5C072B95C318D6 /* Debug */,
+				E40CF94D4E87BD456E86EA3ADA65E6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
