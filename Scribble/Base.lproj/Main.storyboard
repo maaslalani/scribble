@@ -15,35 +15,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="sL0-XV-ro0">
+                                <rect key="frame" x="26" y="66" width="363" height="723"/>
+                                <string key="text">👋 Welcome to Scribble! Get started by taking a picture of your notes and then edit them here, we'll fix the spelling mistakes for you, then your notes are ready to share.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="yes" spellCheckingType="yes" keyboardType="alphabet" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOa-q1-79P">
-                                <rect key="frame" x="20" y="758" width="374" height="104"/>
+                                <rect key="frame" x="0.0" y="797" width="414" height="65"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="104" id="zfh-eQ-VGf"/>
+                                    <constraint firstAttribute="height" constant="65" id="xjA-px-yLR"/>
                                 </constraints>
-                                <state key="normal" title="Scan Notes"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Scan Notes">
+                                    <color key="titleShadowColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonTakePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dOH-bk-znE"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sL0-XV-ro0">
-                                <rect key="frame" x="30" y="85" width="354" height="589"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <color key="tintColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">👋 Welcome to Scribble! Get started by taking a picture of your notes and then edit them here, we'll fix the spelling mistakes for you, then your notes are ready to share.</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="KOa-q1-79P" firstAttribute="top" secondItem="sL0-XV-ro0" secondAttribute="bottom" constant="84" id="1zv-Vk-Uf4"/>
-                            <constraint firstItem="KOa-q1-79P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7nx-hQ-ShI"/>
-                            <constraint firstItem="sL0-XV-ro0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="41" id="JSB-nL-cYI"/>
-                            <constraint firstItem="KOa-q1-79P" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Jyy-4C-uKI"/>
-                            <constraint firstItem="sL0-XV-ro0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="aI8-8g-DmQ"/>
-                            <constraint firstItem="KOa-q1-79P" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="bN4-VA-DZ4"/>
-                            <constraint firstItem="sL0-XV-ro0" firstAttribute="centerX" secondItem="KOa-q1-79P" secondAttribute="centerX" id="z25-kG-fiL"/>
+                            <constraint firstItem="sL0-XV-ro0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0nb-RN-QuA"/>
+                            <constraint firstItem="KOa-q1-79P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1v5-2t-FbG"/>
+                            <constraint firstItem="sL0-XV-ro0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="36j-E7-YSa"/>
+                            <constraint firstItem="KOa-q1-79P" firstAttribute="top" secondItem="sL0-XV-ro0" secondAttribute="bottom" constant="8" id="Nyf-UN-Urx"/>
+                            <constraint firstItem="KOa-q1-79P" firstAttribute="centerX" secondItem="sL0-XV-ro0" secondAttribute="centerX" id="Qfb-gG-qU8"/>
+                            <constraint firstItem="sL0-XV-ro0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="qn1-Jj-2z7"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="KOa-q1-79P" secondAttribute="bottom" id="wir-AX-J9a"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
